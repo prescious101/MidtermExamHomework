@@ -14,8 +14,8 @@ public class BookInfo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_book);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.Booktoolbar);
+        setContentView(R.layout.activity_book);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
     }
